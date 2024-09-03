@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Динамическое отображение полей</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<form id="dynamic-form">
+    <label for="type-select">Тип:</label>
+    <select id="type-select">
+        <option value="1">Тип 1</option>
+        <option value="2">Тип 2</option>
+        <option value="3">Тип 3</option>
+    </select>
+
+    <div id="form-fields">
+        <div class="form-field" data-type="1">Поле 1</div>
+        <div class="form-field" data-type="1">Поле 2</div>
+        <div class="form-field" data-type="2">Поле 3</div>
+        <div class="form-field" data-type="2">Поле 4</div>
+        <div class="form-field" data-type="3">Поле 5</div>
+        <div class="form-field" data-type="3">Поле 6</div>
+        <div class="form-field" data-type="1">Поле 7</div>
+    </div>
+</form>
+
+<script src="js/script.js"></script>
+</body>
+</html>
